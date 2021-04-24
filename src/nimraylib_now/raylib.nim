@@ -13,7 +13,7 @@ when defined(windows):
   else:
     {.passL:"libraylibdll.a".}
 else:
-  {.passL:"-lraylib".}
+  {.passL:"/home/tbalen/git_clones/raylib/src/libraylib.a".}
 ## *********************************************************************************************
 ##
 ##    raylib - A simple and easy-to-use library to enjoy videogames programming (www.raylib.com)
